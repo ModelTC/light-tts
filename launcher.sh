@@ -1,0 +1,1 @@
+python -m light_tts.server.api_server --model_dir ./pretrained_models/CosyVoice2-0.5B-latest --load_trt True
