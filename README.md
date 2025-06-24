@@ -1,3 +1,5 @@
+![Light TTS Banner](asset/light-tts.jpg)
+
 # light-tts
 
 **light-tts** is a lightweight and high-performance text-to-speech (TTS) inference and service framework based on Python. It is built around the [cosyvoice](https://github.com/FunAudioLLM/CosyVoice) model and based on the [lightllm](https://github.com/ModelTC/lightllm), with optimizations to support fast, scalable, and service-ready TTS deployment.
@@ -19,7 +21,10 @@
 
 - Installing with Docker
     ```bash
-    # Manually build the image
+    # The easiest way to install Lightllm is by using the official image. You can directly pull and run the official image
+    docker pull lighttts/light-tts:v1.0
+
+    # Or you can manually build the image
     docker build -t light-tts:v1.0 .
 
     # Run the image
